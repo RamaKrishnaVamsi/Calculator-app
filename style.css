@@ -1,7 +1,7 @@
 body{
     font-family: Arial, sans-serif;
       display: flex;
-      background-image: url("Maths1.jpg");
+       color: linear-gradient(to top, rgb(230, 11, 11), rgb(226, 24, 24));
       background-size: cover;
       background-position: center; /* Center the image */
       background-repeat: no-repeat; 
@@ -68,7 +68,7 @@ button{
     font-size: 14px;
     font-family: Arial, sans-serif;
     display: flex;
-    background-image: url("./Maths1.jpg");
+   color: linear-gradient(to top, rgb(230, 11, 11), rgb(226, 24, 24));
     background-size: cover;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; 
@@ -78,9 +78,16 @@ button{
     margin: 0;
     background-color: #f3f3f3;
 }
-h1{
-  color: linear-gradient(to top, black, rgb(226, 24, 24));
+	h1{
+  position: absolute;
+  top: 35px; /* Distance from the top */
+  left: 50%;
+  font-size: 40px;
+  transform: translateX(-50%);
+  margin: 0;
+  color: linear-gradient(to top, rgb(230, 11, 11), rgb(226, 24, 24));
 }
+
 button{
     display: flex;
     justify-content: center;
